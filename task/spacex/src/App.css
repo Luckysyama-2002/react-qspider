@@ -1,0 +1,88 @@
+/* Reset margins and set full black background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Fixed Navigation Bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.4); /* Transparent black */
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Full-Screen Home Sections */
+.hero-section {
+  position: relative;
+  height: 100vh; /* Takes full window height */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end; /* Puts text at the bottom */
+}
+
+.section-content {
+  padding: 80px 50px;
+  text-transform: uppercase;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+}
+
+/* Minimalist SpaceX-style Button */
+.spacex-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 15px 35px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+}
+
+.spacex-btn:hover {
+  background-color: white;
+  color: black;
+}
