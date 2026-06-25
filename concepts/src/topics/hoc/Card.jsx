@@ -5,7 +5,7 @@
  const Card = () => {
    return (
      <div>
-        Card helllllo huchsduhsudhdhfudsihfuisdfhuisdhfuisdhidhsdfhuidshfsiduf
+        Card helllllo huchsduh WRITE ANYTHING IT PRINTS HERE
 
      </div>
    )
