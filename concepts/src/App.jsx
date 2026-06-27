@@ -25,6 +25,12 @@ import Hoc from "./topics/hoc/Hoc";
 import Use_Context_Api from "./topics/usecontext_api/Use_Context_Api";
 import Tailwind from "./topics/tailwind/Tailwind";
 import UseContext_Task from "./task/UseContext_Task";
+import ListAndKeys from "./listandkeys/ListAndKeys";
+import UncontrolledForm from "./uncontrolledform/UncontrolledForm";
+import Formtask from "./uncontrolledform/Formtask";
+import CardSingle from "./task/CardSingle";
+import { ToastContainer } from "react-toastify";
+import Controlledform from "./topics/controlforms/ControlledForm";
 
 
 const App =()=>{
@@ -54,10 +60,15 @@ const App =()=>{
            {/* <Hoc/> */}
            {/* <Use_Context_Api/> */}
            {/* <Tailwind/> */}
-           <UseContext_Task/>
-           
-           
+           {/* <UseContext_Task/> */}
+           {/* <CardSingle/> */}
 
+           {/* <ListAndKeys/> */}
+           {/* <UncontrolledForm/> */}
+           {/* <Formtask/>
+           
+          <ToastContainer/> */}
+          <Controlledform/>
         </div>
     )
 }

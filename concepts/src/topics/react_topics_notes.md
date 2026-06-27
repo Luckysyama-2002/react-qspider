@@ -18,3 +18,9 @@ we can use 3 ways  useEffect hook
 3- useEffect(callback, [dependency])
 
 note: useEffect hook will not return any data . (void function, void method)  
+
+
+const [username,setUserName]= useState('')
+const handleInput =(e)=>{
+    
+}
