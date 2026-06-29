@@ -31,6 +31,12 @@ import Formtask from "./uncontrolledform/Formtask";
 import CardSingle from "./task/CardSingle";
 import { ToastContainer } from "react-toastify";
 import Controlledform from "./topics/controlforms/ControlledForm";
+import Randomized from "./topics/controlforms/Randomized";
+import RandomQuestion from "./topics/controlforms/RandomQuestion";
+import RadioAndCheckbox from "./topics/controlforms/RadioButton";
+import RadioButton from "./topics/controlforms/RadioButton";
+import CheckBox from "./topics/controlforms/CheckBox";
+import MultipleCheckbox from "./topics/controlforms/MultipleCheckbox";
 
 
 const App =()=>{
@@ -68,7 +74,12 @@ const App =()=>{
            {/* <Formtask/>
            
           <ToastContainer/> */}
-          <Controlledform/>
+          {/* <Controlledform/> */}
+          {/* <Randomized/> */}
+          {/* <RandomQuestion/> */}
+          {/* <RadioButton/> */}
+          {/* <CheckBox/> */}
+          <MultipleCheckbox/>
         </div>
     )
 }
